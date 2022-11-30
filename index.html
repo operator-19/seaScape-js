@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sea Scape</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+
+        <nav class="nav container" id="nav">
+            <a href="./index.html" class="logo">SeaScape</a>
+            <div class="nav-mobile">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#showcase" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#popular-destinations" class="list-link">Destinations</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#plan-trip" class="list-link">Plan Trip</a>
+                    </li>
+                    <li class="list-item lg-screen-hidden">
+                        <a href="#newsletter" class="list-link">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#newsletter" class="btn sm-screen-hidden">Book Now</a>
+
+            <div class="menu-toggle-icon lg-screen-hidden place-items-center" id="menu-toggle-icon">
+                <i class="ri-menu-3-line menu-open-icon"></i>
+                <i class="ri-close-fill menu-close-icon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- first section -->
+        <section class="showcase section" id="showcase">
+            <div class="showcase-container container d-grid">
+                <div class="showcase-data order-2">
+                    <span class="tagline">Begin the journey</span>
+                    <h1 class="title main-title">
+                        Heal your soul at the <span class="accent-text">beach!</span>
+                    </h1>
+                    <p class="description">
+                        Luxury by the sea.
+                    </p>
+                    <a href="#popular-destinations" class="btn">Explore</a>
+                </div>
+                <div class="image-group order-1 d-grid">
+                    <div class="image-box image-left">
+                        <img src="./assets/showcase-image-1.jpg" alt="">
+                    </div>
+                    <div class="image-box image-center">
+                        <img src="./assets/showcase-image-2.jpg" alt="">
+                    </div>
+                    <div class="image-box image-right">
+                        <img src="./assets/showcase-image-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- popular destination -->
+        <section class="popular-destinations section" id="popular-destinations">
+            <div class="popular-destinations-container container d-grid">
+                <div class="popular-destinations-data">
+                    <span class="tagline">Popular Destinations</span>
+                    <h2 class="title">
+                        Beaches with the most <span class="accent-text">visitors</span> this year
+                    </h2>
+                    <p class="description">
+                        Sand and Sea at your fingertips.
+                    </p>
+                    <a href="#newsletter" class="btn">Contact</a>
+                </div>
+
+                <div class="beach-data-wrapper image-box">
+                    <div class="beach-data">
+                        <div class="beach-data-inner width-50">
+                            <h3 class="beach-name">Sunset Beach Park</h3>
+                            <span class="beach-loaction">
+                                <span class="accent-text">
+                                    <i class="ri-map-pin-line"></i>
+                                </span> Pupukea, HI, USA
+                            </span>
+                        </div>
+                        <a href="#" class="btn place-items-center">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                    </div>
+                    <img src="./assets/beach-hawaii.jpg" alt="">
+                </div>
+
+                <div class="secondary-grid d-grid">
+                    <div class="beach-data-wrapper image-box image-box-left">
+                        <div class="beach-data">
+                            <div class="beach-data-inner">
+                                <h3 class="beach-name">Mantira Beach</h3>
+                                <span class="beach-location">
+                                    <span class="accent-text">
+                                        <i class="ri-map-pin-line"></i>
+                                    </span> Bora Bora, French Polynesia
+                                </span>
+                            </div>
+                            <a href="#" class="btn place-items-center">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                        <img src="./assets/bora-bora-beach.jpg" alt="">
+                    </div>
+
+                    <div class="beach-data-wrapper image-box image-box-center">
+                        <div class="beach-data">
+                            <div class="beach-data-inner width-50">
+                                <h3 class="beach-name">Hulhumale Beach</h3>
+                                <span class="beach-location">
+                                    <span class="accent-text">
+                                        <i class="ri-map-pin-line"></i>
+                                    </span> Male, Maldives
+                                </span>
+                            </div>
+                            <a href="#" class="btn place-items-center">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                        <img src="./assets/maldives-beach.jpg" alt="">
+                    </div>
+
+                    <div class="beach-data-wrapper image-box image-box-right">
+                        <div class="beach-data">
+                            <div class="beach-data-inner">
+                                <h3 class="beach-name">Grace Bay Beach</h3>
+                                <span class="beach-location">
+                                    <span class="accent-text">
+                                        <i class="ri-map-pin-line"></i>
+                                    </span> Turks and Caicos
+                                </span>
+                            </div>
+                            <a href="#" class="btn place-items-center">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </a>
+                        </div>
+                        <img src="./assets/turks-caicos-beach.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- plan trip -->
+        <section class="plan-trip section" id="plan-trip">
+            <div class="plan-trip-container container d-grid">
+                <div class="plan-trip-data">
+                    <span class="tagline">Planning your trip</span>
+                    <h1 class="title main-title">
+                        Let's <span class="accent-text">explore</span> your dream beach now!
+                    </h1>
+                    <p class="description">
+                        Personal and customized trip for you and your family.
+                    </p>
+                    <a href="#newsletter" class="btn">Contact</a>
+                </div>
+                <div class="beach-data-wrapper image-box">
+                    <img src="./assets/plan-trip-image.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- newsletter -->
+        <section class="newsletter section" id="newsletter">
+            <div class="newsletter-container container">
+                <div class="newsletter-container-inner">
+                    <h2 class="title">
+                        Subscribe now to get the latest SeaScape news! Or start planning yopur trip by getting a quote
+                        today!
+                    </h2>
+                    <p class="description">
+                        Never miss an opprtunity to catch our sales and specials!
+                    </p>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-light">Subscribe now</a>
+                        <a href="#" class="btn">Get a quote</a>
+                    </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer section">
+            <div class="footer-container container">
+                <div class="footer-container-inner d-grid">
+
+                    <div>
+                        <h6 class="title footer-title">SeaScape</h6>
+                        <ul class="list">
+                            <li class="list-item">
+                                <a href="#" class="list-link">Our Values</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link">All Locations</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link">Careers</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h6 class="title footer-title">Connect with us</h6>
+                        <ul class="list">
+                            <li class="list-item">
+                                <a href="https://www.facebook.com/" class="list-link">
+                                    <i class="ri-facebook-circle-line"></i>
+                                    Facebook.
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="https://www.instagram.com/" class="list-link">
+                                    <i class="ri-instagram-line"></i>
+                                    Instagram.
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="https://twitter.com/" class="list-link">
+                                    <i class="ri-twitter-line"></i>
+                                    Twitter.
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- contact -->
+                    <div class="contact-information">
+                        <h6 class="title footer-title">Contact</h6>
+                        <address>
+                            <span>123 Main St</span>
+                            <span>Las Vegas, NV</span>
+                            <a href="tel:800-555-5555" class="underline">(800) 555-5555</a>
+                            <a href="mailto:" class="underline">email@email.com</a>
+                        </address>
+                    </div>
+                </div>
+
+                <hr class="footer-separator">
+                <span class="copyright">&copy; 2022 SeaScape Inc. All right reserved</span>
+
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
